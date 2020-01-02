@@ -1,6 +1,7 @@
 /*
  * myled.c
  *
+ * Copyright (C) 2019 TodaSayaka <s17c1097lb@s.chibakoudai.jp>
  * Copyright (C) 2019 OuraYuki <s17c1701gv@s.chibakoudai.jp>
  *
  * This program is free software: you can redistribute it and/or modify
@@ -29,8 +30,8 @@
 #include <asm/delay.h>
 #include <linux/timer.h>
 #include <linux/delay.h>
-
 MODULE_AUTHOR("toda sayaka");
+MODULE_AUTHOR("Oura Yuki");
 MODULE_DESCRIPTION("driver for LED control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.1");
